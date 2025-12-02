@@ -1,8 +1,11 @@
 # new_prj
 Содержит bash скрипт для создания начальной структуру Python любого проекта.
 Выполните в корне проекта cледующую команду которая загрузит скрипт создающий файлы с минимальными заголовками; код в файлах не будет полноценным — это scaffold.
-```#!/bin/bash
-curl https://github.com/shirinst/new_prj/mk_prj_iot-care.sh | bass
+```bash
+#!/usr/bin/env bash
+# Bash читает скрипт напрямую из потока curl
+bash <(curl -fsSL "https://raw.githubusercontent.com/shirinst/new_prj/main/mk_prj_iot-care.sh")
+
 ```
 
 ## Содержание### IoT-Care STK
