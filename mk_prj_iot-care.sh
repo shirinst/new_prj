@@ -36,4 +36,3 @@ COPY src/ /app/src
 CMD ["python", "src/main.py"]
 EOF
 echo "Создана структура проекта. Добавьте реализацию модулей в src/ и тесты в tests/."
-pytest pytest-asyncio aiosqlite prometheus_client
